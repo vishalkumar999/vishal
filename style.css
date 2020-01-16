@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Varela Round', sans-serif;
+    color: blanchedalmond;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url(child.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative;
+}
+
+
+
+.logo{
+    font-size: 2.5rem;
+    font-family: 'Anton', sans-serif;
+    padding-left: 10px;
+    padding-top: 20px;
+    
+}
+
+.navbar{
+    position: absolute;
+    height: 200px;
+    width: 400px;
+    right: 0;
+    top: 0;
+}
+
+.navbar ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.navbar ul li{
+    margin: 0 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    transition: all .5s linear;
+}
+
+.slogen{
+    height: 250px;
+    width: 300px;
+    font-size: 2rem;
+    position: absolute;
+    left: 200px;
+    top: 350px;
+    display: block;
+}
+
+.slogen p{
+    display: block;
+    color:#ffffff;
+}
+
+.navbar ul li:hover{
+    border-bottom: 2px solid black;
+    transform: scale(1.5);
+}
